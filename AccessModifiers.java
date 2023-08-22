@@ -1,25 +1,37 @@
 /* ****************** Access Modifiers In Java *********************
-
+Are the keywords that can be used to control the visibility of fields methods etc.
     Modifier    Class   Package     Subclass    World
     public       Yes     Yes          Yes        Yes
     protected    Yes     Yes          Yes        No
     private      Yes     No           No         No
     default      Yes     Yes          No         No
-
-
 */
 package myJavaTutorial;
+
 class Student{
-    
-}
+    public int a = 2;
+    protected int b = 3;
+    int c = 4;
+    private int d = 5;
 
-class Employee{
-
+    public void display()
+    {
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+    }
 }
 
 
 public class AccessModifiers {
     public static void main(String[] args) {
-        System.out.println("Access Modifiers In Java");
+        Student std = new Student();
+        // std.display();
+        System.out.println(std.a);
+        System.out.println(std.b);
+        System.out.println(std.c);
+        // System.out.println(std.d);
+
     }
 }
