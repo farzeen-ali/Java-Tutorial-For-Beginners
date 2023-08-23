@@ -9,14 +9,12 @@ class Student{
     int id;
     String name;
     int age;
-
     public void showDetails()
     {
         System.out.println("Id: " + id);
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
-
     public void sayPresent()
     {
         System.out.println("Present Sir");
