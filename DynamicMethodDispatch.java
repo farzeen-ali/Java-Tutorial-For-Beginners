@@ -36,6 +36,6 @@ public class DynamicMethodDispatch {
         p.call();
         //p.selfie();---> error
 
-        //SmartPhone sp = new Phone();//allowed
+        //SmartPhone sp = new Phone();//not allowed
     }
 }
