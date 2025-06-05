@@ -27,7 +27,6 @@ public class Array{
         // age[5] = 70;
 
         // System.out.println(age[3]);
-
         // Second Method
         int [] marks = {55,67,45,78,88};
         System.out.println(marks[3]);
